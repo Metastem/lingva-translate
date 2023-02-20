@@ -40,15 +40,6 @@ const Header: FC<Props> = (props) => (
                 <ColorModeToggler
                     variant={useColorModeValue("outline", "solid")}
                 />
-                <IconButton
-                    as={Link}
-                    href="https://github.com/thedaviddelta/lingva-translate"
-                    isExternal={true}
-                    aria-label="GitHub"
-                    icon={<FaGithub />}
-                    colorScheme="lingva"
-                    variant={useColorModeValue("outline", "solid")}
-                />
             </HStack>
         </Flex>
     </>
