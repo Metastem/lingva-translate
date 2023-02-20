@@ -8,8 +8,8 @@ type Props = {
     home?: boolean
 };
 
-const title = "Lingva Translate";
-const description = "Alternative front-end for Google Translate, serving as a Free and Open Source translator with over a hundred languages available";
+const title = "Metastem Translate";
+const description = "Metastem Commune's service, offered free of charge, instantly translates words, phrases, and web pages between English and over 100 other languages.";
 
 const siteDomain = process.env["NEXT_PUBLIC_SITE_DOMAIN"];
 const url = siteDomain && (siteDomain.includes("localhost") ? "http://" : "https://") + siteDomain;
